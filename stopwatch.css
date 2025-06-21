@@ -1,0 +1,73 @@
+body {
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+.container{
+      margin-top: 150px;
+      margin-left:30px;
+}
+.box{
+    background: black;
+    width: 80%;
+    height:150px;
+    color: white;
+    padding:20px;
+    border-radius:50px;
+    text-align:center;
+    position: relative;
+    border:1px solid red;
+}
+table{
+    width: 100%;
+    align-items:center;
+}
+table th{
+    font-size:25px;
+    font-weight:800;
+    color:red;
+}
+table td{
+    text-align:center;
+    font-size:25px;
+    font-weight:600;
+}
+span{
+    font-size:70px;
+    font-weight:200;
+}
+p{
+    color: white;
+    position: absolute;
+    top: 140px;
+    left:250px;
+}
+.count{
+    margin:10px;
+    text-align:center;
+    align-items:center;
+    display:flex;
+}
+button{
+    border:none;
+    outline:none;
+    background:red;
+    width:25%;
+    padding: 10px;
+    border-radius: 16px;
+    color: white;
+    margin:10px;
+    text-align:center;
+}
+#blur{
+    display:none;
+}
+#blur:active{
+    background: red;
+}
+#start{
+    display: block;
+}
+button:active{
+    background: black;
+}
