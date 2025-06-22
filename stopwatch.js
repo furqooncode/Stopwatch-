@@ -25,7 +25,7 @@ function run() {
      counting = !counting;
 counting = true;
 pausable.num = setInterval(function () {
-   counts++;
+counts = (counts + 1) % 1000000;
    number.innerHTML = counts.toString().padStart('7', 0);  
  },1);
 pausable.sec = setInterval(function () {
